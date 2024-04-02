@@ -60,7 +60,7 @@ Follow these steps to install and configure Greenplum Database on Ubuntu 18.04 L
 
 10. **Postgres Configuration**
 
-    Edit `/opt/gpmaster/gpsne-1/pg_hba.conf` and append these lines... REPLACE <USER> with your <SYSTEM_USER> and IP <10.50.50.XX> with trusted IP or IP range to allow access:
+    Edit `/opt/gpmaster/gpsne-1/pg_hba.conf` and REPLACE <USER> with your <SYSTEM_USER> and IP <10.50.50.XX> with trusted IP or IP range to allow access:
 
     ```bash
     host all all 0.0.0.0/0 md5
