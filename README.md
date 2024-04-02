@@ -7,13 +7,13 @@ Follow these steps to install and configure Greenplum Database on Ubuntu 18.04 L
     ```bash
     sudo vi /etc/hosts
     # Add the following line under '127.0.0.1'
-    127.0.0.1 gplum
+    127.0.0.1 gplum gplum.example.com
     ```
 
 2. **Set hostname**
 
     ```bash
-    sudo systemctl set-hostname gplum
+    sudo hostnamectl set-hostname --static gplum.example.com
     ```
 
 3. **Add Greenplum repository and update**
