@@ -35,6 +35,7 @@
 6. **Load Greenplum Database software into your environment**
 
     ```bash
+    ln  -s /usr/local/share/greenplum-db-6.26.4 /opt/greenplum-db-6.26.4
     source /opt/greenplum-db-6.26.4/greenplum_path.sh
     ```
     #installation path may vary , please use your installation path instead of '/opt/'
