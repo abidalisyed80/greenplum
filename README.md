@@ -2,7 +2,7 @@
 
 #NOTE: Before proceeding to greenplum Installation, make sure you have installed all required dependencies mentioned in `README.Ubuntu.bash`
 
-Follow these steps to install and configure Greenplum Database on Ubuntu 18.04 LTS.
+## Follow these steps to install and configure Greenplum Database on Ubuntu 18.04 LTS.
 
 1. **Add hostname entry to `/etc/hosts`**
 
