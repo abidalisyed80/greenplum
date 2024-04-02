@@ -35,7 +35,7 @@ Follow these steps to install and configure Greenplum Database on Ubuntu 18.04 L
     ```bash
     source /opt/greenplum-db-6.26.4/greenplum_path.sh
     ```
-    #installation path may vary , please your installation path instead of '/opt/'
+    #installation path may vary , please use your installation path instead of '/opt/'
 
 7. **Edit `gpinitsystem_singlenode` Configuration File**
 
